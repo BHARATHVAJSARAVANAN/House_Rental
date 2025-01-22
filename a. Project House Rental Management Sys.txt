@@ -1,0 +1,116 @@
+https://www.campcodes.com/projects/php/house-rental-management-system/
+
+
+Project: House Rental Management System in PHP and MySQL with Source Code
+Quality properties for rentEcommerce system
+Welcome to our in-depth exploration of House Rental Management Systems in PHP and  MySQL! In this comprehensive guide, we will delve into the intricacies of managing house rentals efficiently, leveraging the power of modern web technologies. Let’s embark on this journey to streamline rental processes and enhance user experience.
+
+
+About House Rental Management System in PHP MySQL
+House Rental Management System Project is a simple web  application develop in PHP MySQL database using JavaScript, Bootstrap, HTML, CSS, Ajax and Modal. The main purposes of the system is to manage the payment of the tenant and monitor the house rental. The system contain of admin and staff, the admin can manage all information of the tenant like edit, update, delete, and check payment and accept, and the staff can manage like admin but different access.
+
+House Rental Management System, a robust web application crafted with PHP and MySQL, alongside JavaScript, Bootstrap, HTML, CSS, Ajax, and Modal, aims to revolutionize how we manage rental properties. At its core, the system offers an intuitive interface for both administrators and staff members, facilitating seamless tenant payment management and rental monitoring.
+
+
+Features of the Project
+Admin Dashboard
+House type
+Houses
+Tenants
+Payments
+Reports
+Users
+
+Admin Dashboard
+The central hub of the system, the admin dashboard, empowers administrators with comprehensive control over tenant information and financial transactions. From editing and updating tenant details to overseeing payments and generating reports, the admin dashboard serves as a command center for effective management.
+
+House Type & Houses
+Effortlessly categorize properties by type and manage individual houses with ease. This feature enables efficient organization and navigation, ensuring a streamlined rental management process.
+
+
+Tenants & Payments
+Track tenant details and monitor payments effortlessly. With features for managing tenant information and recording payments, this aspect of the system simplifies financial transactions and enhances transparency.
+
+Reports
+Gain valuable insights into rental performance through detailed reports. From financial summaries to occupancy rates, the reporting feature provides administrators with actionable data for informed decision-making.
+
+
+Users
+Manage user access and permissions seamlessly. Whether assigning administrative roles or granting limited access to staff members, user management ensures optimal security and control.
+
+House Rental Management System Project
+Technical Specifications
+Language Used: PHP
+Database Used: MySQL
+Design Interface: Bootstrap, JavaScript, HTML, Ajax, JQuery
+Supported Browsers: Opera, Mozilla Firefox, Google Chrome, Internet Explorer 8
+Required Software: WAMP, XAMPP, LAMP, MAMP
+Installation Guide
+To unleash the potential of the House Rental Management System, follow these simple steps:
+
+
+Download and Extract: Obtain the source code and extract it to your local environment.
+Copy to htdocs: Copy the main project folder to the ‘htdocs’ directory in your server environment (e.g., XAMPP).
+Database Configuration: Access phpMyAdmin and create a new database named “house_rental_db”. Import the provided SQL file located in the ‘db’ folder.
+Access the System: Navigate to “http://localhost/house_rental” in your web browser to access the system.
+House Rental Management System Flowchart
+This flowchart illustrates the functionality of the Admin Dashboard within a House Rental Management System. The Admin Dashboard allows the administrator to perform various tasks related to managing tenants, tracking financial transactions, and generating reports.
+
+
+House Rental Management System ER Diagram
+
+
+
+
+Manage Tenant Information: This action enables the administrator to handle tenant information such as adding, editing, or deleting tenant details.
+Track Financial Transactions: The administrator can monitor financial transactions, including payments made by tenants for rent or other expenses.
+Generate Reports: This function allows the administrator to generate comprehensive reports regarding various aspects of the rental management system, providing valuable insights and analytics.
+Categorize by House Type: The administrator can categorize rental properties by their type, facilitating better organization and management.
+Manage Individual Houses: This action allows the administrator to manage individual rental properties, including assigning tenants, updating property details, or making any necessary changes.
+Generate Financial Summaries: Within the Reports section, the administrator can generate financial summaries, providing an overview of income, expenses, and other financial aspects of the rental properties.
+Calculate Occupancy Rates: This function calculates the occupancy rates of the rental properties, indicating the percentage of occupied units compared to the total available units.
+READ ALSO:   Complete Helpdesk Ticketing System in PHP MySQL Free Download Source Code
+House Rental Management System ER Diagram
+The ER diagram depicts the relationships between entities within the House Rental Management System, illustrating how different components interact with each other.
+
+House Rental Management System ER Diagram
+
+
+ADMIN: Administrators are responsible for managing the system. An administrator can oversee multiple tenants and houses, indicated by the “manages” relationship.
+TENANT: Tenants are individuals renting properties managed by the system. Each tenant can make multiple payments, as shown by the “makes” relationship.
+HOUSE: Houses represent the rental properties within the system. Each house can receive payments from tenants and belongs to a specific house type, indicated by the “receives” and “belongs_to” relationships, respectively.
+HOUSE_TYPE: House types categorize properties based on their characteristics. Each house can belong to only one house type.
+REPORT: Reports provide valuable insights into various aspects of the rental management system. Administrators can generate multiple reports, including financial summaries and occupancy rates, depicted by the “generates” relationship between ADMIN and REPORT.
+FINANCIAL_SUMMARY: Financial summaries present a summary of income, expenses, and other financial aspects related to rental properties. Each report can generate multiple financial summary entries.
+OCCUPANCY_RATE: Occupancy rates indicate the percentage of occupied units compared to the total available units. Similar to financial summaries, each report can generate multiple occupancy rate entries.
+Screenshots of the House Rental Systemx
+
+house rental management system
+house rental system
+house rental system
+
+
+
+house rental management system in php mysql
+house rental management system in php  mysql
+
+How To Run
+Above all, to run this project you must have installed a virtual server i.e XAMPP on your PC. House Rental Management System in PHP and  MySQL with source code is free to download, Use for educational purposes only!
+
+1st Step: Firstly, Extract the file
+2nd Step: After that, Copy the main project folder
+3rd Step: So, you need to Paste in xampp/htdocs/
+
+
+Further, Now Connecting Database
+
+4th Step: So, for now, Open a browser and go to URL “http://localhost/phpmyadmin/”
+5th Step: After that, Click on the databases tab
+6th Step: So, Create a database naming “house_rental_db” and then click on the import tab
+7th Step: Certainly, Click on browse file and select “house_rental_db.sql” file which is inside the “db” folder
+8th Step: Meanwhile, click on Go button.
+
+
+After Creating Database,
+
+9th Step: Moreover, Open a browser and go to URL “http://localhost/house_rental”
